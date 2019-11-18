@@ -16,5 +16,6 @@ deploy:
   github_token: $deployToken
   local_dir: dist
   keep_history: true
+  edge: true
   on:
     branch: master
