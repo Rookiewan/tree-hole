@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - '10.16.0'
+cache:
+  bundler: true
+  directories:
+    - node_modules
+branches:
+  only:
+    - master
+install: npm install
+script: npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $deployToken
+  local_dir: dist
+  keep_history: true
+  on:
+    branch: master
