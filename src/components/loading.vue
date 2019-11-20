@@ -1,8 +1,8 @@
 <template>
   <div class="app-loading">
-    <cloud :size="800" :pos="{x: 200, y: 400}"></cloud>
+    <cloud :size="600" :pos="{x: 200, y: 400}"></cloud>
     <cloud :size="100" :pos="{x: 100, y: 50}"></cloud>
-    <cloud :size="400" :pos="{x: '80%', y: 200}"></cloud>
+    <cloud :size="400" :pos="{x: '60%', y: 200}"></cloud>
   </div>
 </template>
 
